@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  font-family: Denk One;
   line-height: 1.5;
   background-color: #f5f2f0;
 }
@@ -19,10 +20,15 @@ h2 {
 }
 
 ol li {
+  display: grid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   margin: 1.5rem;
-  padding: .5em .75em .6em, 1rem;
+  padding: .5em .75em .6em 1rem;
   gap: 1rem;
   border-width: 2px;
+  border-radius: 8px;
 }
