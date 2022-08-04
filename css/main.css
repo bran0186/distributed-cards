@@ -1,0 +1,28 @@
+html {
+  box-sizing: border-box;
+  line-height: 1.5;
+  background-color: #f5f2f0;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h1 {
+  font-family: 'Denk One', sans-serif;
+  color: #623b0c;
+}
+
+h2 {
+  font-family: 'Denk One', sans-serif;
+  color: #623b0c;
+}
+
+ol li {
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  margin: 1.5rem;
+  padding: .5em .75em .6em, 1rem;
+  gap: 1rem;
+  border-width: 2px;
+}
